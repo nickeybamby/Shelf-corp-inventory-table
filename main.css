@@ -78,7 +78,7 @@
     background-color: #388328;
 }
 
-@media (max-width: 1360px) {
+@media screen and (max-width: 1360px) {
     .hamburger {
         display: block;
     }
@@ -173,7 +173,7 @@
     font-size: 20px;
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .section_padding {
         padding: 0 100px;
     }
@@ -183,7 +183,7 @@
     }
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .section_padding {
         padding: 0 40px;
     }
@@ -208,11 +208,13 @@
     }
 }
 
+
+
 /* TABLE */
 
 
 .tableContainer {
-    min-height: 100vh;
+    
     font: 90%/1.45em "Helvetica Neue", HelveticaNeue, Verdana, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 50px 0;
